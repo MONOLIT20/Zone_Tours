@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+    text-align: center;
+     display: block;
+    margin: 0 auto;    
+    margin-top: 10px;
+}
+
+header {
+    background-color: rgb(2, 2, 29);
+    height: 100px;
+    width: 100%;
+}
+
+main {
+    
+}
+
+body {
+    background-color: #3B5935; 
+    color: #FFFFFF; 
+    margin: 0; 
+    font-family: Courier New;
+}
+
+nav {
+  position: sticky;
+  top: 0;
+  background: rgb(2, 2, 29);
+}
+
+.photo-row {
+  display: flex; 
+  justify-content: center; 
+  gap: 10px; 
+}
+.photo-row img {
+  width: 250px; 
+  height: auto; 
+  border: 2px solid #ccc; 
+  border-radius: 5px; 
+}
+
+button {
+  position: fixed; 
+  bottom: 20px; 
+  right: 20px; 
+  background-color: #354A39; 
+  color: #ffffff; 
+  padding: 10px 15px; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: background-color 0.3s ease; 
+}
+
+.zone-animation {
+  text-align: center;
+  color: #e0e0e0;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+.blink {
+  animation: blinkEffect 1s infinite;
+}
+@keyframes blinkEffect {
+  50% {
+    opacity: 0;
+  }
+}
+
+footer {
+  background-color: rgb(41, 3, 3);
+}
+
